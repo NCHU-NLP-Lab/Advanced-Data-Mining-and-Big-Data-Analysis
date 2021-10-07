@@ -15,8 +15,8 @@
 - **答案請使用規定之JSON格式，例如:題目兩題各回傳關聯度最高的前兩名，格式應為 [["第一題第一名關鍵字", "第一題第二名關鍵字"],["第二題第一名關鍵字","第二題第二名關鍵字"]]**
 
 #### 可參考資源
-1.https://colab.research.google.com/github/astg606/py_materials/blob/master/useful_modules/introduction_json.ipynb(JSON格式介紹)
+1.https://colab.research.google.com/github/astg606/py_materials/blob/master/useful_modules/introduction_json.ipynb (JSON格式介紹)
 
-2.https://github.com/fxsjy/jieba(結巴斷詞)
+2.https://github.com/fxsjy/jieba (結巴斷詞)
 
 3.https://github.com/UDICatNCHU/UdicOpenData (斷詞工具)
