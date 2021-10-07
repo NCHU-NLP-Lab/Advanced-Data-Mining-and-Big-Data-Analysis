@@ -28,4 +28,3 @@ gdown --id 1rQnbaOiqoN40AzHVq_IrRW4ki-rFPRxZ
 
 2.https://github.com/fxsjy/jieba (結巴斷詞)
 
-3.https://github.com/UDICatNCHU/UdicOpenData (斷詞工具)
