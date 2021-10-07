@@ -14,6 +14,14 @@
 - 第一格填入學號，第二格填入你程式跑出的答案
 - **答案請使用規定之JSON格式，例如:題目兩題各回傳關聯度最高的前兩名，格式應為 [["第一題第一名關鍵字", "第一題第二名關鍵字"],["第二題第一名關鍵字","第二題第二名關鍵字"]]**
 
+#### wiki資料下載
+提供50000筆維基百科條目的JSON檔，請使用此資料來完成作業。
+
+```
+pip install gdown
+gdown --id 1rQnbaOiqoN40AzHVq_IrRW4ki-rFPRxZ
+```
+
 #### 可參考資源
 1.https://colab.research.google.com/github/astg606/py_materials/blob/master/useful_modules/introduction_json.ipynb (JSON格式介紹)
 
