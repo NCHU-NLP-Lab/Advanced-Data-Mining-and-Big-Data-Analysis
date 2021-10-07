@@ -16,5 +16,7 @@
 
 #### 可參考資源
 1.https://colab.research.google.com/github/astg606/py_materials/blob/master/useful_modules/introduction_json.ipynb(JSON格式介紹)
+
 2.https://github.com/fxsjy/jieba(結巴斷詞)
+
 3.https://github.com/UDICatNCHU/UdicOpenData (斷詞工具)
