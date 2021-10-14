@@ -54,5 +54,5 @@ gdown --id 1rQnbaOiqoN40AzHVq_IrRW4ki-rFPRxZ
 
 3.範例框架 https://github.com/NCHU-NLP-Lab/110_Advanced-Data-Mining-and-Big-Data-Analysis/blob/main/KCM/KCM_Keyword_Correlation_Models_from_Open_Corpus.ipynb
 
-4. Jieba斷詞範例程式碼 https://colab.research.google.com/drive/1KD_U2BOhhWKW9UdhKh_z3lp_EOfh4_I7?usp=sharing 
+4.Jieba斷詞範例程式碼 https://colab.research.google.com/drive/1KD_U2BOhhWKW9UdhKh_z3lp_EOfh4_I7?usp=sharing 
 
