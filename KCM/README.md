@@ -52,3 +52,5 @@ gdown --id 1rQnbaOiqoN40AzHVq_IrRW4ki-rFPRxZ
 
 2.https://github.com/fxsjy/jieba (結巴斷詞)
 
+3.範例框架 https://github.com/NCHU-NLP-Lab/110_Advanced-Data-Mining-and-Big-Data-Analysis/blob/main/KCM/KCM_Keyword_Correlation_Models_from_Open_Corpus.ipynb
+
