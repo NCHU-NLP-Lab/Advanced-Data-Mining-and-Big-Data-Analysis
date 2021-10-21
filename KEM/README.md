@@ -12,7 +12,7 @@
 * 答案範例 : [["日本", "香港", "中國大陸", "分佈", "中國", "中華民國", "日治", "臺北市", "名稱", "臺北"],["非建制地區", "城市", "人口普查", "加拿大", "英國", "地區", "加利福尼亞州", "國家", "伊利諾伊州", "公司"]]
 -----
 * 測試用題目:['臺灣', '美國', '大學', '肺炎','天安門','歌手','中國','蔡英文','立法院','颱風']
-* 參考答案: testCase_answer.json https://github.com/NCHU-NLP-Lab/110_Advanced-Data-Mining-and-Big-Data-Analysis/blob/main/KEM/testCase_answer.json
+* 參考答案: testcase_answer.json https://github.com/NCHU-NLP-Lab/110_Advanced-Data-Mining-and-Big-Data-Analysis/blob/main/KEM/testcase_answer.json
 
 #### 可參考資源
 
