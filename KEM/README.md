@@ -9,7 +9,7 @@
 但是下次的作業會需要使用到Word2Vec 所以需要會使用
 
 因為此次wiki檔案龐大(約4G) 故直接提供連結下載
-https://drive.google.com/file/d/1nlT3GegYaOM02G4WAqFe--nuFSHbDn5X/view?usp=sharing
+https://www.dropbox.com/s/n4lu6ybk3nyflr7/wiki_tokenize_2021_08_05_1215639.json?dl=0
 * 題目範例:['臺灣','美國']
 * 答案範例 : [["日本", "香港", "中國大陸", "分佈", "中國", "中華民國", "日治", "臺北市", "名稱", "臺北"],["非建制地區", "城市", "人口普查", "加拿大", "英國", "地區", "加利福尼亞州", "國家", "伊利諾伊州", "公司"]]
 -----
