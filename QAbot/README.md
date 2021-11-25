@@ -47,7 +47,7 @@ print(JsonList[0]['Question'])
 
 #### 可用資源
 1. 繁體中文wiki百科的json檔： https://drive.google.com/file/d/1yyqTwl3SCMQ6P6ZWt88cPqvtzK4RdI2m/view?usp=sharing
-2. 繁體中文wiki的json檔，且content經過斷詞:https://drive.google.com/file/d/1nlT3GegYaOM02G4WAqFe--nuFSHbDn5X/view?usp=sharing 
+2. 繁體中文wiki的json檔，且content經過斷詞:https://drive.google.com/file/d/1nlT3GegYaOM02G4WAqFe--nuFSHbDn5X/view?usp=sharing
 3. 繁體中文wiki的準RDD Format: https://drive.google.com/file/d/1-9nmzGHVE1w5gkhcdRKItIHLP6GmtWLg/view?usp=sharing 
 4. ptt社群網站爬蟲：https://github.com/RogerTsai917/PTT-Crawler
 5. ijson: https://github.com/isagalaev/ijson
