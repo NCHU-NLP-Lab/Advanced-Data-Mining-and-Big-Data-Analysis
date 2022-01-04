@@ -12,7 +12,7 @@ ssh your_master_username@ip -p master_ssh_port
 
 連線到slave主機:
 ```console
-ssh your_slave_username@ip -p master_ssh_port
+ssh your_slave_username@ip -p slave_ssh_port
 ```
 
 
