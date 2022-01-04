@@ -52,11 +52,6 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 sudo apt update
 sudo apt install nano
 ```
-執行`sudo`指令時需要再輸入一次密碼:
-```console
-5724_udic_hadoop_master_0@5724_udic_hadoop_master_0:~$ sudo vim /etc/hosts
-[sudo] password for 5724_udic_hadoop_master_0:
-```
 
 新增slave和master的hostname讓他們認得彼此的IP。(master和slave都要進行同樣操作)
 ```console
@@ -945,7 +940,7 @@ hadoop fs -chmod -R 777 /tmp
 
 ### Step 23 檢查WebUI
 
-可以到瀏覽器上輸入 http://IP:WebUI Port 瀏覽Hadoop Resource Manager WebUI介面。
+可以到瀏覽器上輸入 `http://IP:WebUI_Port` 瀏覽Hadoop Resource Manager WebUI介面。
 
 可以看到2個node
 ![](https://i.imgur.com/qkRgRki.png)
