@@ -163,12 +163,16 @@ sudo usermod -a -G hadoop hduser
 su hduser
 ```
 
-`groups`: 確認是否有sudo權限及所屬群組
+確認是否有sudo權限及所屬群組
+```console
+groups
+```
+output:
 ```console
 hduser@5724_udic_hadoop_master_0:/home/5724_udic_hadoop_master_0$ groups
 hduser sudo hadoop
 ```
-之後都會以`hduser`進行操作
+之後步驟都會以`hduser`進行操作
 
 ### Step 4 產生公私鑰
 
@@ -457,7 +461,7 @@ hadoop-metrics2.properties  kms-acls.xml             mapred-site.xml.template
 hadoop-metrics.properties   kms-env.sh               slaves
 ```
 
-### Step 13 修改`hadoop-env.sh`
+### Step 13 修改`hadoop-env.sh`檔案
 
 `hadoop-env.sh`的修改
 ```console
@@ -490,7 +494,7 @@ done
 ```
 修改後儲存離開
 
-### Step 14 修改`yarn-env.sh`
+### Step 14 修改`yarn-env.sh`檔案
 
 `yarn-env.sh`的修改
 ```console
@@ -524,7 +528,7 @@ JAVA_HEAP_MAX=-Xmx1000m
 ```
 修改後儲存離開
 
-### Step 15 修改`slaves`
+### Step 15 修改`slaves`檔案
 
 `slaves`的修改
 這邊我們改成master和slave因為本次流程只有2台機器，我們讓他們都成為一個工作節點。
@@ -540,7 +544,7 @@ slave
 ```
 修改後儲存離開
 
-### Step 16 修改`core-site.xml`
+### Step 16 修改`core-site.xml`檔案
 
 `core-site.xml`的修改
 ```console
@@ -593,7 +597,7 @@ sudo nano core-site.xml
 ```
 修改後儲存離開
 
-### Step 17 修改`hdfs-site.xml`
+### Step 17 修改`hdfs-site.xml`檔案
 
 `hdfs-site.xml`的修改
 ```console
@@ -679,7 +683,7 @@ sudo nano hdfs-site.xml
 ```
 修改後儲存離開
 
-### Step 18 修改`mapred-site.xml`
+### Step 18 修改`mapred-site.xml`檔案
 
 `mapred-site.xml`的修改
 
@@ -729,7 +733,7 @@ sudo nano mapred-site.xml
 ```
 修改後儲存離開
 
-### Step 19 修改`yarn-site.xml`
+### Step 19 修改`yarn-site.xml`檔案
 
 `yarn-site.xml`的修改
 ```console
@@ -835,7 +839,7 @@ sudo nano yarn-site.xml
 
 ### Step 20 設定slave
 
-把所有設定檔傳到slave，這樣設定slave時就不用再修改一次
+在master上把所有剛才設定好的檔案傳到slave，這樣設定slave時就不用再修改一次
 ```console
 scp -r /usr/local/hadoop/etc/hadoop hduser@slave:~/hadoop-config
 ```
