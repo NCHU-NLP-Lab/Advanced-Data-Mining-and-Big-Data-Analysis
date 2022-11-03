@@ -52,7 +52,3 @@ https://colab.research.google.com/drive/1cOwJG6d8_cWLoOLMp0z1UB7blZ45yJwb#scroll
 1. 繁體中文wiki百科的json檔： https://drive.google.com/file/d/1yyqTwl3SCMQ6P6ZWt88cPqvtzK4RdI2m/view?usp=sharing
 2. 繁體中文wiki的json檔，且content經過斷詞:https://drive.google.com/file/d/1nlT3GegYaOM02G4WAqFe--nuFSHbDn5X/view?usp=sharing
 3. 繁體中文wiki的準RDD Format: https://drive.google.com/file/d/1-9nmzGHVE1w5gkhcdRKItIHLP6GmtWLg/view?usp=sharing 
-4. ptt社群網站爬蟲：https://github.com/RogerTsai917/PTT-Crawler
-5. ijson: https://github.com/isagalaev/ijson
-   使用ijson搜尋工具，ijson主要是使用在json過大而不能夠全部loading進記憶體時，採用stream的方式讀取json檔。
-	python3 ijsonSearch.py 查詢的json檔名 查詢的目標類型 查詢目標名稱
