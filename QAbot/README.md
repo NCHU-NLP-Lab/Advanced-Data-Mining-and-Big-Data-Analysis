@@ -10,7 +10,7 @@
 
 ---
 
-- 評分網站: <http://140.120.182.90:12000/scoring/>
+- 評分網站: <https://admbda.nlpnchu.org/scoring/>
 
 #### JSON讀取說明
 - 例如題目之格式為：
