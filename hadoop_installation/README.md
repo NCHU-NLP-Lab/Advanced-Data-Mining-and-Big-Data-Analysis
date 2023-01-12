@@ -228,7 +228,7 @@ cat ~/.ssh/authorized_keys
 
 將新增的公鑰與私鑰傳給slave
 ```console
-scp -r ~/.ssh hduser@slave:~/.ssh
+scp -r ~/.ssh hduser@slave:~/
 ```
 傳送過程如下:
 ```console
