@@ -232,7 +232,7 @@ scp -r ~/.ssh hduser@slave:~/.ssh
 ```
 傳送過程如下:
 ```console
-hduser@5724_udic_hadoop_master_0:~/.ssh$ scp -r ~/.ssh hduser@slave:~/.ssh
+hduser@5724_udic_hadoop_master_0:~/.ssh$ scp -r ~/.ssh hduser@slave:~/
 The authenticity of host 'slave (172.17.0.46)' can't be established.
 ECDSA key fingerprint is SHA256:6sXUeozIiyuXZCSm639jvRc1rD7fDCTK2pjaGKVxFUY.
 Are you sure you want to continue connecting (yes/no)? yes
